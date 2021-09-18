@@ -713,40 +713,61 @@ body{
     top: 365px;
 }
 
-.cash_register_title{
-    position: relative;
-    top: 850px;
-    text-align: center;
+/* Список О кассе Видео Характеристики */
+
+.cash_register{
+    position: absolute;
+    left: 27%;
+    top: 3671px;
+}
+
+.register_title{
     font-family: Open Sans, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
     line-height: 50px;
+    text-align: center;
 }
 
-
-.register_btn{
-    position: absolute;
-    width: 163px;
-    height: 53px;
-    left: 280px;
-    top: 3858px;
+.register_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 3px;
 }
 
-.register_btn_text{
-    color: black;
-    position: absolute;
-    width: 132px;
-    height: 20px;
-    left: 15px;
-    top: 15px;
+.register_list{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.register_link{
     font-family: Open Sans, serif;
+    color: black;
     font-style: normal;
     font-weight: 600;
     font-size: 35px;
     line-height: 20px;
+    text-decoration: none;
 }
+
+.register_item:nth-child(2),.register_item:nth-child(3){
+    margin-left: 76px;
+}
+
+.register_item:nth-child(1),.register_item:nth-child(2),
+.register_item:nth-child(3){
+    margin-top: 12%;
+}
+.register_link:hover, .register_link:focus, .register_link:active{
+    background-size: cover;
+    background-image: url("../img/svg/Rectangle 13581.svg");
+    background-repeat: no-repeat;
+}
+
+/* Конец списка */
 
 .video_btn_text{
     color: black;
@@ -805,66 +826,60 @@ body{
     line-height: 24px;
 }
 
-.about_buying{
+
+/* Список О кассе Видео Характеристики */
+
+.choose_thing{
     position: absolute;
-    width: 163px;
-    height: 53px;
-    left: 280px;
-    top: 4833.97px;
+    top: 4700px;
+    left: 20%;
 }
 
-.buy_btn{
-    position: absolute;
-    width: 163px;
-    height: 53px;
-    top: 15px;
-    left: 130px;
-}
-
-.buy_btn_text{
-    color: black;
-    position: absolute;
-    width: 127px;
-    height: 20px;
-    top: 15px;
-    left: 17px;
-
+.choose_title{
     font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    top: -30px;
+}
+
+.about_buying_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.about_buying_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about_buying_link{
+    font-family: Open Sans, serif;
+    color: black;
     font-style: normal;
     font-weight: 600;
     font-size: 35px;
     line-height: 20px;
+    text-decoration: none;
 }
 
-.rent_btn_text{
-    color: black;
-    position: absolute;
-    width: 110px;
-    height: 20px;
-    left: 710px;
-    top: 4862.97px;
-
-    font-family: Open Sans, serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 20px;
+.about_buying_item:nth-child(2),.about_buying_item:nth-child(3){
+    margin-left: 76px;
 }
 
-
-
-.soft_btn_text{
-    color: black;
-    position: absolute;
-    height: 20px;
-    left: 950px;
-    top: 4862.97px;
-
-    font-family: Open Sans, serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 20px;
+.about_buying_item:nth-child(1),.about_buying_item:nth-child(2),
+.about_buying_item:nth-child(3){
+    margin-top: 12%;
+}
+.about_buying_item:hover, .about_buying_item:focus, .about_buying_item:active{
+    background-size: cover;
+    background-image: url("../img/svg/Rectangle 13581.svg");
+    background-repeat: no-repeat;
 }
 
 .solution_text{
@@ -872,15 +887,18 @@ body{
     text-align: center;
     width: 930px;
     height: 60px;
-    left: 300px;
-    top: 2033px;
-
     font-family: Open Sans, serif;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 30px;
 }
+
+/* Конец списка */
+
+
+
+
 
 
 
@@ -980,4 +998,115 @@ body{
     left: 1160px;
     top: 4540px;
 }
+
+.register_button{
+    position: absolute;
+    width: 553px;
+    height: 70px;
+    left: 0px;
+    top: 5000px;
+}
+
+.first_script_button{
+    position: relative;
+    width: 553px;
+    height: 70px;
+    left: 200px;
+    top: 2200px;
+}
+
+
+.script_title1{
+    position: absolute;
+    width: 38px;
+    height: 25px;
+    left: 0px;
+    top: -25px;
+
+    color:  #898989;;
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+.second_script_button{
+    position: relative;
+    width: 553px;
+    height: 70px;
+    left: 200px;
+    top: 2250px;
+}
+
+.script_title2{
+    position: absolute;
+    left: 0px;
+    top: -28px;
+
+    color:  #898989;;
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.third_script_button{
+    position: relative;
+    width: 553px;
+    height: 70px;
+    left: 200px;
+    top: 2300px;
+}
+
+.script_title3{
+    position: absolute;
+    left: 0px;
+    top: -28px;
+
+    color:  #898989;;
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+.slider {
+    -webkit-appearance: none;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+
+
+
 /* Header styles end */
